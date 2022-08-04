@@ -12,4 +12,4 @@ with sr.Microphone() as source:
         print(text)
         keyboard.write(f' {text} ')
     except:
-        print(I did not understand you')
+        print('I did not understand you')
